@@ -1,4 +1,5 @@
 /* RESET */
+
 * {
     padding: 0;
     margin: 0;
@@ -21,11 +22,13 @@ body {
 }
 
 /* HEADER */
+
 h1 {
     color: white;
     padding: 2%;
     font-size: 60px;
 }
+
 /* /HEADER */
 
 .card {
@@ -39,16 +42,22 @@ h1 {
     margin: 1%;
     border-radius: 10%;
 }
+
+/* Sezione dedicata i div.card e al loro comportamento: se selezionati, compaiono immagine e didascalia */
+
 .card * {
     display: none;
 }
+
 .card img {
-    padding:20%;
+    padding: 20%;
 }
+/* per lasciare una specifica carta "scoperta" mi piaceva nth-child perchè poi risulta comoda per sceglierne eventualmente un'altra (sostituendo due numeri cambi fila e colonna) */
 .card:hover, .row:nth-child(2)>.card:nth-child(3) {
     background-image: none;
 }
-.card:hover *, .row:nth-child(2)>.card:nth-child(3) *{
+
+.card:hover *, .row:nth-child(2)>.card:nth-child(3) * {
     display: block;
 }
 
@@ -56,16 +65,13 @@ h1 {
     position: absolute;
     bottom: 2%;
     left: 25%;
-    color:#e61986;
-
+    color: #e61986;
 }
+
 .description:hover {
-    color:#e67919;
-    
+    color: #e67919;
 }
 
 footer {
     margin-top: 3%;
 }
-
-
