@@ -47,11 +47,10 @@ h1 {
 .card img {
     padding: 20%;
 }
-/* per lasciare una specifica carta "scoperta" mi piaceva nth-child perchè poi risulta comoda per sceglierne eventualmente un'altra (sostituendo due numeri cambi fila e colonna) */
-.card:hover, .row:nth-child(2)>.card:nth-child(3) {
+.card:hover, .uncovered {
     background-image: none;
 }
-.card:hover *, .row:nth-child(2)>.card:nth-child(3) * {
+.card:hover *, .uncovered * {
     display: block;
 }
 /* Didascalia all'immagine */
