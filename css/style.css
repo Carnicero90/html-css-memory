@@ -20,7 +20,7 @@ body {
 h1 {
     color: white;
     padding: 2%;
-    font-size: 60px;
+    font-size: 3em;
 }
 
 /* /HEADER */
@@ -29,8 +29,8 @@ h1 {
 
 /* Sezione dedicata i div.card e al loro comportamento: se selezionati, compaiono immagine e didascalia */
 .card {
-    height: 140px;
-    width: 120px;
+    height: 14vw;
+    width: 13vw;
     background-image: url("../img/pattern.png");
     background-color: white;
     display: inline-block;
@@ -56,10 +56,10 @@ h1 {
 /* Didascalia all'immagine */
 .description {
     position: absolute;
-    bottom: 2%;
-    left: 0;
+    bottom: 0;
+    left: 2%;
     color: #e61986;
-    font-size: 120%;
+    font-size: 2vw;
 }
 .description:hover {
     color: #e67919;
@@ -67,7 +67,8 @@ h1 {
 /* /MAIN */
 
 /* FOOTER */
-footer {
+footer h3 {
+    font-size: 1em;
     margin-top: 3%;
 }
 /* /FOOTER */
