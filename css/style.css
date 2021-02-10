@@ -1,5 +1,4 @@
 /* RESET */
-
 * {
     padding: 0;
     margin: 0;
@@ -7,7 +6,6 @@
 }
 
 /* COMMON */
-
 img {
     width: 100%;
     overflow: hidden;
@@ -20,9 +18,9 @@ body {
     font-family: "Nerko One", Arial, sans-serif;
     text-align: center;
 }
+/* /COMMON */
 
 /* HEADER */
-
 h1 {
     color: white;
     padding: 2%;
@@ -31,6 +29,9 @@ h1 {
 
 /* /HEADER */
 
+/* MAIN */
+
+/* Sezione dedicata i div.card e al loro comportamento: se selezionati, compaiono immagine e didascalia */
 .card {
     height: 140px;
     width: 120px;
@@ -42,13 +43,9 @@ h1 {
     margin: 1%;
     border-radius: 10%;
 }
-
-/* Sezione dedicata i div.card e al loro comportamento: se selezionati, compaiono immagine e didascalia */
-
 .card * {
     display: none;
 }
-
 .card img {
     padding: 20%;
 }
@@ -56,22 +53,23 @@ h1 {
 .card:hover, .row:nth-child(2)>.card:nth-child(3) {
     background-image: none;
 }
-
 .card:hover *, .row:nth-child(2)>.card:nth-child(3) * {
     display: block;
 }
-
+/* Didascalia all'immagine */
 .description {
     position: absolute;
     bottom: 2%;
     left: 25%;
     color: #e61986;
 }
-
 .description:hover {
     color: #e67919;
 }
+/* /MAIN */
 
+/* FOOTER */
 footer {
     margin-top: 3%;
 }
+/* /FOOTER */
