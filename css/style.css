@@ -1,0 +1,45 @@
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+
+img {
+    width: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-color: #addbe6;
+    width: 65%;
+    margin: auto;
+    font-family: "Nerko One", Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    padding: 2%;
+}
+
+.card img {
+    display: none;
+}
+
+.card img:hover {
+    background-image: none;
+}
+.card:hover img {
+    display: inline-block;
+}
+
+.card {
+    height: 30%;
+    width: 20%;
+    background-color: red;
+    position: relative;
+    display: inline-block;
+}
