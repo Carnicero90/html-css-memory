@@ -6,10 +6,6 @@
 }
 
 /* COMMON */
-img {
-    width: 100%;
-    overflow: hidden;
-}
 
 body {
     background-color: #addbe6;
@@ -45,6 +41,8 @@ h1 {
 }
 .card * {
     display: none;
+    width: 100%;
+
 }
 .card img {
     padding: 20%;
@@ -60,8 +58,9 @@ h1 {
 .description {
     position: absolute;
     bottom: 2%;
-    left: 25%;
+    left: 0;
     color: #e61986;
+    font-size: 120%;
 }
 .description:hover {
     color: #e67919;
