@@ -20,26 +20,49 @@ body {
     text-align: center;
 }
 
+/* HEADER */
 h1 {
     color: white;
     padding: 2%;
+    font-size: 60px;
 }
-
-.card img {
-    display: none;
-}
-
-.card img:hover {
-    background-image: none;
-}
-.card:hover img {
-    display: inline-block;
-}
+/* /HEADER */
 
 .card {
-    height: 30%;
-    width: 20%;
-    background-color: red;
-    position: relative;
+    height: 140px;
+    width: 120px;
+    background-image: url("../img/pattern.png");
+    background-color: white;
     display: inline-block;
+    position: relative;
+    background-size: contain;
+    margin: 1%;
+    border-radius: 10%;
 }
+.card * {
+    display: none;
+}
+.card img {
+    height: 100%;
+    padding:20%;
+}
+.card:hover, .row:nth-child(2)>.card:nth-child(3) {
+    background-image: none;
+}
+.card:hover *, .row:nth-child(2)>.card:nth-child(3) *{
+    display: block;
+}
+
+.description {
+    position: absolute;
+    bottom: 2%;
+    left: 25%;
+    color:#e61986;
+
+}
+.description:hover {
+    color:#e67919;
+    
+}
+
+
