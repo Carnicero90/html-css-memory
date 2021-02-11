@@ -57,6 +57,7 @@ h1 {
 .description {
     position: absolute;
     bottom: 0;
+    padding: 2%;
     color: #e61986;
     font-size: 2vw;
 }
